@@ -1,13 +1,12 @@
-var Hitung = document.querySelector(".hitung");
 var hasil = document.querySelector(".hasil");
 var penjelasan = document.querySelector(".penjelasan");
 
-Hitung.addEventListener("click", () => {
+function hitung() {
 
     var tinggi = Number(document.getElementById("tinggi").value);
     var berat = Number(document.getElementById("berat").value);
     tinggi = tinggi / 100;
-    var BMI = berat / (tinggi * tinggi);
+    var BMI = berat / Math.pow(tinggi, 2);
     hasil.innerText = BMI;
     
     if (BMI < 18.5) {
@@ -19,7 +18,7 @@ Hitung.addEventListener("click", () => {
     } else {
         penjelasan.innerText = "Kegemukan (Obesitas)";
     }
-});
+};
 
 function reset() {
     document.getElementById('berat').value = "";

@@ -10,7 +10,6 @@ Hitung.addEventListener("click", () => {
     var BMI = berat / (tinggi * tinggi);
     hasil.innerText = BMI;
     
-    
     if (BMI < 18.5) {
         penjelasan.innerText = "Kekurangan Berat Badan";
     } else if ((BMI > 18.5) && (BMI <= 24.9)) {
@@ -21,3 +20,8 @@ Hitung.addEventListener("click", () => {
         penjelasan.innerText = "Kegemukan (Obesitas)";
     }
 });
+
+function reset() {
+    document.getElementById('berat').value = "";
+    document.getElementById('tinggi').value = "";
+}

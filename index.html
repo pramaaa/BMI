@@ -8,12 +8,46 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+    <h1>Kalkulator BMI</h1>
+    <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang
+        penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat.</p>
 
-
+    <div class="card">
+        <div class="container">
+            <label for="gender"><b>Jenis Kelamin</b></label><br>
+            <input type="radio" id="gender" name="gender" value="cwo" checked>Pria</radio>
+            <input type="radio"  id="gender" name="gender" value="cwe">Wanita</radio>
+            <br><br>
+            <label for="berat"><b>Berat badan (kg)</b></label><br>
+            <input class="inputt" type="text" id="berat" name="berat"></radio>
+            <br><br>
+            <label for="tinggi"><b>Tinggi badan (cm)</b></label><br>
+            <input class="inputt" type="text" id="tinggi" name="tinggi"></radio>
+            <br><br>
+            <button class="submitnya hitung" type="submit">Hitung BMI</button>
+            <button value="">Reset</button>
+            <br><br>
+        </div>
+    </div>
+    <h1>Keunggulan fitur</h1>
+    <ol>
+        <li>Menghitung berat badan</li>
+        <li>Menentukan kategori berat badan ideal atau tidak</li>
+        <li>Mempersiapkan program penurunan berat badan</li>
+    </ol>
+    <br><br>
+    <div class="card">
+        <div class="container">
+            <h1>Hasil Perhitungan</h1>
+            <strong><div class="hasil">0</div></strong>
+            <p class="penjelasan"></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
 </body>
 
 </html>

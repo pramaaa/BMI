@@ -1,0 +1,38 @@
+button {
+    width: 10%;
+    height: 30px;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+ol{
+    margin: -20px;
+    line-height: 22px;
+}
+
+strong {
+    size: 30px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 98%;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 2px 16px;
+    background-color:ghostwhite;
+    line-height: 22px;
+}
+
+.inputt {
+    width: 98%;
+    height: 20px;
+    border-radius: 3px;
+    border-width: thin;
+}
+
+.submitnya {
+    background-color: lightblue;
+}

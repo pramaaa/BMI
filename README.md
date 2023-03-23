@@ -1,3 +1,3 @@
 # BMI
 
-Penghitunga berat badan ideal
+Penghitung berat badan ideal
